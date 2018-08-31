@@ -1,0 +1,57 @@
+<style>
+body {font-family: Times new romans, Times, seri; text-align: left; background-color:WhiteSmoke; color:MediumSeaGreen;}
+form {
+	background-image: url("foodpic1.jpg"); 
+	height:100vh;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 9px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-color:white;
+}
+
+button {
+    background-color: #778899;
+    color: black;
+    padding: 7px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 40%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  background-color: #778899;
+  color: black;
+  padding: 7px 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 40%;
+}
+.container {
+    padding: 5opx 100px;
+	width: 200%;
+	height:100%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+
+}
+</style>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Times new roman, Helvetica, sans-serif;background-image: url("foodpic.jpg"); 
+	height:100vh;
+	width:100vh
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+button {
+    background-color: #778899;
+    color: black;
+    padding: 7px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 40%;
+600100
+0100000206932
+}
+
+button:hover {
+    opacity: 0.8;
+</style>
+</head>
+<body>
+
+<h2>Placed orders</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">View placed menu list</button>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    </head>
+<body>
+<h2>placed orders by clients </h2>
+<p><i>appeared meals in the text boxes are orderd</i></p>
+<div id="Chicken pieces & value meals" class="tabcontent">
+  <h3>Chicken pieces</h3>
+  <div class="custom-select" style="width:200px;">
+  <select>
+    <option value="1">1 piece @ 100Ksh</option>
+    <option value="2">2 piece @ 200Ksh</option>
+    <option value="3">3 piece @ 300Ksh</option>
+    <option value="4">4 piece @ 400Ksh</option>
+    <option value="5">6 piece @ 600Ksh</option>
+    <option value="6">9 piece @ 900Ksh</option>
+    <option value="7">12 piece @ 1,200Ksh</option>
+  </select>
+</div>
+</div>
+<div id="Combo Meals" class="tabcontent">
+  <h3>Combo Meals</h3>
+  <div class="custom-select" style="width:200px;">
+  <select>
+    <option value="1">1 piece, Chips, 330ml soda @ 300Ksh</option>
+    <option value="2">3 piecer, Chips, 330ml soda @ 500Ksh</option>
+    <option value="3">full bucket of drumsticks, 2 33oml soda @ 1300Ksh </option>
+  </select>
+</div>
+<p> <i>Combo meals have weakly offers on Mondays and Fridays</i></p>
+</div>
+
+<div id="Salads" class="tabcontent">
+  <h3>Salads</h3>
+  <div class="custom-select" style="width:200px;">
+  <select>
+    <option value="1">Tossed Salads @ 300Ksh</option>
+    <option value="2">Farinaceous Salads @ 250Ksh</option>
+    <option value="3">Coleslaw salads @ 150Ksh</option>
+    <option value="4">dressings {Vinaigrette, Mayonnaise-Based, Emulsified Vinaigrette} @ 70Ksh</option>
+  </select>
+</div>
+</div>
+<div id="Drinks" class="tabcontent">
+  <h3>Drinks</h3>
+  <div class="custom-select" style="width:200px;">
+  <select>
+    <option value="1">Plastic bottled 330ml soda @ 90Ksh</option>
+    <option value="2">Glass of smoothie @ 200Ksh</option>
+    <option value="3"> Energy drinks @ 300Ksh </option>
+  </select>
+</div>
+<p> <i>Combo meals come with free soda</i></p>
+</div>
+	<div class="clearfix">
+      <button  type="button" class="submitbtn">confirm order</button>
+	  <button  type="button" class="submitbtn">reject order</button>
+	   <button  type="button" class="submitbtn">got to previous order</button>
+	    <button  type="button" class="submitbtn">go to next order</button>
+    </div>
+  </div>
+</body>
+</html> 
+
+  </div>
+
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
