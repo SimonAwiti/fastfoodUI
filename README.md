@@ -10,3 +10,4 @@ The Admin user should be able to do the following:
 Accept and decline orders
 Mark orders as completed
 A user should be able to see a history of ordered food
+file:///C:/Users/Simon/Desktop/Capture2.PNG
