@@ -1,0 +1,102 @@
+<style>
+{
+    background-image: url("foodpic.jpg");
+    background-repeat: no-repeat;
+}	
+{box-sizing: border-box}
+body {font-family: Times new romans, Times, seri; text-align: left-side; background-color:WhiteSmoke}
+form {border: 1px solid #A9A9A9;}
+}
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 40%;
+    height: 300px;
+}
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 9px 15px;
+    width: 40%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.tab button:hover {
+    background-color: #778899;
+}
+.submitbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+	float: center;
+    width: 50%;
+    background-color: #778899;
+    color: black;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 40%;
+}
+.tab button.active {
+    background-color: #778899;
+}
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 40%;
+    border-left: none;
+    height: 150px;
+}
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 9px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #778899;
+    color: black;
+    padding: 7px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 40%;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  background-color: #778899;
+  color: black;
+  padding: 7px 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 40%;
+}
+.container {
+    padding: 20px;
+	width: 70%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+
+}
+</style>
+</style>
