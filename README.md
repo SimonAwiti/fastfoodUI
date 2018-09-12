@@ -10,4 +10,4 @@ The Admin user should be able to do the following:
 Accept and decline orders
 Mark orders as completed
 A user should be able to see a history of ordered food
-file:///C:/Users/Simon/Desktop/Capture2.PNG
+![capture1](https://user-images.githubusercontent.com/42590964/45421163-e9e03480-b694-11e8-91ee-71dc32b77f5d.PNG)
