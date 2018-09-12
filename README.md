@@ -1,7 +1,7 @@
 # fastfoodUI
-fast food user interface 
-Users interfaces where one can:
- create an account and log in
+## fast food user interface interacts the user by allowing him or her to  
+
+ *create an account and log in
  be able to order for food
 The admin should be able to add,edit or delete the fast-food items
 The admin should be able to see a list of fast-food items
