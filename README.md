@@ -1,4 +1,4 @@
-# fastfoodUI
+# fast food UI
 ## fast food user interface interacts the user by allowing him or her to  
 
  * create an account and log in
@@ -11,7 +11,7 @@
 * Accept and decline orders
 * Mark orders as completed
 ### below are some of the screenshorts of the UI
-A user should be able to see a history of ordered food
+
 ![capture1](https://user-images.githubusercontent.com/42590964/45421163-e9e03480-b694-11e8-91ee-71dc32b77f5d.PNG)
 ![capture2](https://user-images.githubusercontent.com/42590964/45421467-c9fd4080-b695-11e8-8c9d-90f0bca9f8c6.PNG)
 
