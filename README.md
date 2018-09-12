@@ -1,4 +1,7 @@
 # fast food UI
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/49140b398db3403b950e5d7fb67ca33a)](https://app.codacy.com/app/SimonAwiti/fastfoodUI?utm_source=github.com&utm_medium=referral&utm_content=SimonAwiti/fastfoodUI&utm_campaign=Badge_Grade_Dashboard)
+
 ## fast food user interface interacts the user by allowing him or her to  
 
  * create an account and log in
