@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {font-family: Times new roman, Helvetica, sans-serif;background-image: url("image6.jpg"); 
+	height:100vh;
+	width:100vh
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="home1.css">
+</head>
+</body>
+
+<button class="tablink" onclick="openPage('Home', this, 'lime')">Home</button>
+<button class="tablink" onclick="openPage('User', this, 'lime')" >User</button>
+<button class="tablink" onclick="openPage('Menu', this, 'lime')">Menu</button>
+<button class="tablink" onclick="openPage('Admin', this, 'lime')">Admin</button>
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <br>
+  <br>
+  <h1><b>For Fast food meals!</b></h1>
+  <h4><b>Free delivery around town</b></h4>
+  <h2><i>Enjoy the taste of parfection</i></h2>
+  <h5>contact information <br>tel:079226640<br> Email: awitisimon23@gmail.com </h5>
+</div>
+
+<div id="User" class="tabcontent">
+  <h3> new user sign in</h3>
+  <br>
+  <br>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Sign in</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+	<link rel="stylesheet" type="text/css" href="newsigninUI.css">
+</head>
+<body>
+<form
+<h1><b>New User sign up<b></h1>
+
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+    <label for="email"><b><br>Email</b></label><br>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b><br>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b><br>Repeat Password</b></label><br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember">Remember me
+    </label>
+	<div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+	<P><i>Already have an account, click <a  href = "C:\Users\Simon\Documents\new project\loginui.html"> here </a> to log in </i></p>
+  </div>
+</form>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+<div id="Menu" class="tabcontent">
+<br>
+<br>
+  <h3>place orders</h3
+  <br>
+  <br>
+  <h1><i> click  <a  href = "C:\Users\Simon\Documents\new project\newordermeal.html"> here </a> to view available meals and place orders </i></h1>
+</div>
+<div id="Admin" class="tabcontent">
+<br>
+<br>
+  <h2>  <a  href = "C:\Users\Simon\Documents\new project\orders.html"> View placed orders for today </a></h2>
+  <h2>  <a  href = "C:\Users\Simon\Documents\new project\list.html"> List of available meals </a></h2>
+
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html> 
