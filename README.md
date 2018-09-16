@@ -10,6 +10,7 @@
  * See a list of orders
 * Accept and decline orders
 * Mark orders as completed
+* [home page](https://github.com/SimonAwiti/fastfoodUI/blob/master/index.html)
 ### below are some of the screenshorts of the UI
 
 ![index1](https://user-images.githubusercontent.com/42590964/45600133-44b0bd80-ba00-11e8-8f90-4137089e46c1.PNG)
