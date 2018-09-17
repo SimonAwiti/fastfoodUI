@@ -13,5 +13,6 @@
 * [home page](https://github.com/SimonAwiti/fastfoodUI/index.html)
 ### below are some of the screenshorts of the UI
 
-![index1](https://user-images.githubusercontent.com/42590964/45600133-44b0bd80-ba00-11e8-8f90-4137089e46c1.PNG)
+![index1](https://user-images.githubusercontent.com/42590964/45611775-46fb3200-ba69-11e8-8b79-0be20955533c.PNG)
+
 ![index2](https://user-images.githubusercontent.com/42590964/45600137-52664300-ba00-11e8-92ad-bc28ffd45690.PNG)
