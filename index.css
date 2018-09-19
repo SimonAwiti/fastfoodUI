@@ -2,7 +2,7 @@
 body {
 background-image: url("image6.jpg")}
 body {
-background-image: url("image6.jpg")}
+background-image: url("foodpic1.jpg")}
 body {font-family: Times new roman, Helvetica, sans-serif; 
 	height:100vh;
 	width:100vh
@@ -10,7 +10,7 @@ body {font-family: Times new roman, Helvetica, sans-serif;
     background-repeat: no-repeat;
     background-size: cover;}
 .tablink {
-    background-color: skyblue;
+    background-color: red;
     color: white;
     float: center;
     border: none;
@@ -25,7 +25,7 @@ body {font-family: Times new roman, Helvetica, sans-serif;
 }
 .tabs {
   position: relative;   
-  min-height: 200px; /* This part sucks */
+  min-height: 200px; 
   clear: both;
   margin: 25px 0;
 }
@@ -36,7 +36,7 @@ body {font-family: Times new roman, Helvetica, sans-serif;
     background-color: gray;
 }
 .tabcontent {
-    color: white;
+    color: black;
     display: none;
     padding: 0px 0px;
     height: 0%;
@@ -44,10 +44,10 @@ body {font-family: Times new roman, Helvetica, sans-serif;
 }
 
 
-#Home {background-color: #778899;}
-#User {background-color: #778899;}
-#Menu {background-color: #778899;}
-#Admin {background-color: #778899;}
+#Home {background-color: gray;}
+#User {background-color: gray;}
+#Menu {background-color: gray;}
+#Admin {background-color: gray;}
 .modal {
     display: none; 
     position: fixed;
