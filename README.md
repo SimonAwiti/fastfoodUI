@@ -1,5 +1,6 @@
-# fast food UI
-## fast food user interface interacts the user by allowing him or her to  
+# fast food fast
+## fast food fast is a food application that enables the user and the admin to interact with each other in placing and recieving orders.
+### the app enables the user and the admin to: 
 
  * create an account and log in
  * be able to order for food
@@ -10,9 +11,6 @@
  * See a list of orders
 * Accept and decline orders
 * Mark orders as completed
-* [home page](https://github.com/SimonAwiti/fastfoodUI/index.html)
-### below are some of the screenshorts of the UI
 
-![index1](https://user-images.githubusercontent.com/42590964/45611775-46fb3200-ba69-11e8-8b79-0be20955533c.PNG)
 
-![index2](https://user-images.githubusercontent.com/42590964/45600137-52664300-ba00-11e8-92ad-bc28ffd45690.PNG)
+
