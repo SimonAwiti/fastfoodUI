@@ -13,5 +13,5 @@
 * Mark orders as completed
 
 
-<p> view home page
-<a href="https://SimonAwiti.github.io/fastfoodUI/UI/index.html">Regular user start</a></p>
+
+<p><a href="https://SimonAwiti.github.io/fastfoodUI/UI/index.html">Visit site here</a></p>
