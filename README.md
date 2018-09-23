@@ -11,6 +11,7 @@
  * See a list of orders
 * Accept and decline orders
 * Mark orders as completed
-https://github.com/SimonAwiti/fastfoodUI/blob/development/index.html
 
-https://simonawiti.github.io/fastfoodUI/blob/development/index.html
+
+<p> view home page
+<a href="https://SimonAwiti.github.io/fastfoodUI/index.html">Regular user start</a></p>
