@@ -13,3 +13,4 @@
 * Mark orders as completed
 https://github.com/SimonAwiti/fastfoodUI/blob/development/index.html
 
+https://simonawiti.github.io/fastfoodUI/blob/development/index.html
