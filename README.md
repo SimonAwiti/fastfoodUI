@@ -14,4 +14,4 @@
 
 
 <p> view home page
-<a href="https://SimonAwiti.github.io/fastfoodUI/index.html">Regular user start</a></p>
+<a href="https://SimonAwiti.github.io/fastfoodUI/UI/index.html">Regular user start</a></p>
